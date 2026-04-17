@@ -57,8 +57,8 @@ if canvas_result.image_data is not None and api_key and analyze_button:
         input_image = Image.fromarray(input_numpy_array.astype('uint8'), 'RGBA').convert('RGB')
 
         prompt_text = (
-            "Analiza la imagen y da un breve texto psicológico en español "
-            "basado en la técnica HTP y su interpretación de la imagen."
+            "Analiza la imagen con base en la tecnica psicologica HTP"
+            "y da un breve resumen de la interpretacion de la imagen"
         )
 
         # --- CAMBIO 3: llamada a la API de Gemini en lugar de OpenAI ---
