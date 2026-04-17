@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+Pillow
+numpy
+pandas
+matplotlib
+streamlit-drawable-canvas
+tensorflow
